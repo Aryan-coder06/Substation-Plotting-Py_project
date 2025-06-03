@@ -1,30 +1,57 @@
-# ⚡ GridScope
+# ⚡ Substation Intelligence Dashboard
 
-> Visualizing Substation Networks with Animated Charts & Interactive Maps
-
-![screenshot](assets/demo_banner.png)
-
----
-
-## 🔍 Overview
-
-**GridScope** is a data visualization project that transforms raw substation Excel data into:
-- ✨ Stunning animated multi-line charts with styled dashes and colors
-- 🗺️ Interactive geographic maps with markers, routes, and tooltips
-- ⚡ A complete, live dashboard experience powered by Python
-
-Built using **Plotly**, **Folium**, and optionally **Dash**, this project is ideal for energy analytics, infrastructure monitoring, or a standout data portfolio piece.
+![Dashboard Preview](assets/dashboard_light.png)  
+*A modern analytics platform for visualizing and analyzing substation infrastructure.*
 
 ---
 
-## 🧠 Features
+## 🌟 Features
 
-- 📊 Animated Charts: Smooth, colorful, and interactive time-series visualizations
-- 🌍 Interactive Map: Dynamic markers and lines showing substation relations
-- 🎨 Custom Styling: Each data column has its own color, dash style, and legend
-- 🧰 Modular Code: Cleanly separated into scripts, notebooks, and outputs
-- 📦 Easy Deployment: Just run one script to generate everything
+- **🗺️ Interactive Map Visualization**  
+  - Clustered map of substations with support for satellite, dark, and light views  
+  - Popups with name, region, ownership, and coordinates  
+
+- **📊 Advanced Analytics Dashboard**  
+  - Trend lines for planning/maintenance spending  
+  - Ownership-based pie charts  
+  - Summary metric cards  
+
+- **🔍 Dynamic Filtering**  
+  - Filter by **region**, **ownership type**, and **fiscal year**  
+  - Reset to default filters with one click  
+
+- **🎨 Clean UI & UX**  
+  - Light/Dark mode toggle  
+  - Fully responsive layout  
+  - Color-coded and styled charts  
 
 ---
 
+## 🛠️ Tech Stack
 
+- **Python** 🐍  
+  - `pandas` — data processing  
+  - `plotly.express` — interactive graphs  
+  - `folium` — geographic mapping  
+
+- **Dash (by Plotly)** 📊  
+  - Web dashboard framework  
+
+- **HTML / CSS** 💅  
+  - UI styling and layout  
+
+---
+
+## 📂 Project Structure
+
+```bash
+substation-intelligence-dashboard/
+├── Substation_main.py                # Dash application
+├── maindataset.xlsx      # Main Excel dataset
+├── requirement.txt      # Dependencies
+├── README.md             # Project overview
+└── assets/               # Screenshots and logos
+    ├── dashboard_light.png
+    ├── dashboard_dark.png
+    └── map_view.png
+```
