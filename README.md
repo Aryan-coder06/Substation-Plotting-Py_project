@@ -52,6 +52,6 @@ substation-intelligence-dashboard/
 ├── README.md             # Project overview
 └── assets/               # Screenshots and logos
     ├── dashboard_light.png
-    ├── dashboard_dark.png
-    └── map_view.png
+    ├── Dataset_table.png
+    └── Map_working.png
 ```
