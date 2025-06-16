@@ -23,7 +23,8 @@
 - **🎨 Clean UI & UX**  
   - Light/Dark mode toggle  
   - Fully responsive layout  
-  - Color-coded and styled charts  
+  - Color-coded and styled charts
+  - Enhanced Filtering
 
 ---
 
