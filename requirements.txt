@@ -3,5 +3,3 @@ pandas
 plotly
 gunicorn
 numpy
-bs4
-bsset
